@@ -42,5 +42,4 @@ public class Bagarre {
   private static Pokemon determinerVainqueur(Pokemon premierPokemon, Pokemon secondPokemon) {
     return premierPokemon.estVainqueurContre(secondPokemon) ? premierPokemon : secondPokemon;
   }
-
 }
